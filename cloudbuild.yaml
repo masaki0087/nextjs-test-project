@@ -13,7 +13,8 @@ steps:
   - '$PROJECT_ID'
   - '--image'
   - 'gcr.io/$PROJECT_ID/nextjs-test-project-image:$COMMIT_SHA'
-  # - '--region'
+  - '--region'
+  - 'global'  # リージョンを 'global' に変更
   # - 'asia-northeast1'  # リージョン
   - '--platform'
   - 'managed'
