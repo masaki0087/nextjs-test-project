@@ -19,4 +19,5 @@ steps:
   - 'managed'
 images:
 - 'gcr.io/$PROJECT_ID/nextjs-test-project-image'
-logging: CLOUD_LOGGING_ONLY
+options:
+  logging: CLOUD_LOGGING_ONLY
