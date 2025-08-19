@@ -13,8 +13,8 @@ steps:
   - '$PROJECT_ID'
   - '--image'
   - 'gcr.io/$PROJECT_ID/nextjs-test-project-image:$COMMIT_SHA'
-  - '--region'
-  - 'asia-northeast1'  # リージョン
+  # - '--region'
+  # - 'asia-northeast1'  # リージョン
   - '--platform'
   - 'managed'
 images:
